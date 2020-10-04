@@ -4,9 +4,22 @@
     margin: 0;
 }
 
+/* General Styles */
+
 body {
     background-color: #d9dcd6;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Header and Menu  */
 
 .header {
     padding: 20px;
@@ -24,7 +37,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,23 +45,16 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header section ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/* Hero or Header Image  */
 
 .hero {
     height: 800px;
@@ -57,6 +63,32 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Serivces */
+
+.services {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2   {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-left {
@@ -69,11 +101,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+/* Aside or Siderbar Titled "Benefits"  */
 
 .benefits {
     margin-right: 20px;
@@ -102,23 +130,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2   {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Page Footer  */
 
 .footer {
     padding: 30px;
